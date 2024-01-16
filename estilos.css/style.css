@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
 
 body{
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 62.5%;
     display: flex;
     flex-direction: row;
@@ -20,12 +22,107 @@ main{
     border-radius: 1rem;
 }
 .foto-principal{
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
 }
 article{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
+h1{
+    background-color: rgba(127, 255, 212, 0);
+    display: flex;
+    align-items:flex-end;
+font-size: 1.5rem;
+height: 3.5rem;
+}
+p{
+    display: flex;
+    align-items:flex-end;
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0);
+    width: 15rem;
+    height: 4.8rem;
+    font-size: 0.9rem;
+    color: #8c8e92;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0);
+    height: 7rem;
+}
+.bloco-0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F7FF;
+    border-radius: 1rem;
+    width: 16rem;
+    padding: 1rem;
+}
+.musica{
+    width: 2.5rem;
+}
+.bloco-1{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.bloco-2{
+    display: flex;
+    flex-direction: column;
+}
+.anuual{
+font-size: 0.7rem;
+}
+.preco{
+color: #8c8e92;
+font-size: 0.7rem;
+}
+a{
+    color: blue;
+    font-size: 0.7rem;
+}
+input{
+    color: white;
+    background-color:#382ae1;
+    border: none;
+    width:17.7rem;
+    padding: 15px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    font-weight: 900;
+    box-shadow: 5px 10px 10px #8888883f;
+}
+.cancel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-weight: 900;
+    color: #8c8e92;
+    font-size: 0.7rem;
+}
+
+/* ### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+*/
