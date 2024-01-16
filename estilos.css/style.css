@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 62.5%;
     display: flex;
@@ -14,32 +15,37 @@ body{
     min-height: 100vh;
     background-color: #E0E8FF;
 }
-main{
+
+main {
     background-color: white;
     display: flex;
     flex-direction: column;
     width: 22rem;
     border-radius: 1rem;
 }
-.foto-principal{
+
+.foto-principal {
     border-radius: 1rem 1rem 0rem 0rem;
 }
-article{
+
+article {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-h1{
+
+h1 {
     background-color: rgba(127, 255, 212, 0);
     display: flex;
-    align-items:flex-end;
-font-size: 1.5rem;
-height: 3.5rem;
+    align-items: flex-end;
+    font-size: 1.5rem;
+    height: 3.5rem;
 }
-p{
+
+p {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     text-align: center;
     background-color: rgba(137, 43, 226, 0);
     width: 15rem;
@@ -47,7 +53,8 @@ p{
     font-size: 0.9rem;
     color: #8c8e92;
 }
-section{
+
+section {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -55,7 +62,8 @@ section{
     background-color: rgba(255, 0, 0, 0);
     height: 7rem;
 }
-.bloco-0{
+
+.bloco-0 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -65,37 +73,44 @@ section{
     width: 16rem;
     padding: 1rem;
 }
-.musica{
+
+.musica {
     width: 2.5rem;
 }
-.bloco-1{
-  
+
+.bloco-1 {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
-.bloco-2{
+
+.bloco-2 {
     display: flex;
     flex-direction: column;
 }
-.anuual{
-font-size: 0.7rem;
+
+.anuual {
+    font-size: 0.7rem;
 }
-.preco{
-color: #8c8e92;
-font-size: 0.7rem;
+
+.preco {
+    color: #8c8e92;
+    font-size: 0.7rem;
 }
-a{
+
+a {
     color: blue;
     font-size: 0.7rem;
 }
-input{
+
+input {
     color: white;
-    background-color:#382ae1;
+    background-color: #382ae1;
     border: none;
-    width:17.7rem;
+    width: 17.7rem;
     padding: 15px 32px;
     text-decoration: none;
     cursor: pointer;
@@ -103,15 +118,20 @@ input{
     font-weight: 900;
     box-shadow: 5px 10px 10px #8888883f;
 }
-.cancel{
+
+.cancel {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 4rem;
     font-weight: 900;
+}
+.cancel-0{
     color: #8c8e92;
     font-size: 0.7rem;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* ### Primary
